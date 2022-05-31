@@ -10,11 +10,7 @@ body{
     display: flex;
     align-items: center;
 }
-.Btn li:hover{
-    transform: scale(1,1.5);
-    transition: all 2s;
-    background-color: rosybrown;
-}
+
 .navBar{
    display: flex;
    justify-content: space-between;
@@ -36,10 +32,7 @@ body{
 .pie a{
     margin: -50px;
 }
-.pie a:hover{
-    transform: scale(2,2);
-    transition: all 2s;
-}
+
 .Descript{
     margin: auto;
     text-align: center;
@@ -47,6 +40,15 @@ body{
 }
 .Tarifas{
     grid-area: aside;
+}
+.pie a:hover{
+    transform: scale(2,2);
+    transition: all 2s;
+}
+.Btn li:hover{
+    transform: scale(1,1.5);
+    transition: all 2s;
+    background-color: rosybrown;
 }
 body{
     display: grid;
