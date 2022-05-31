@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #faeee7;
+}
+.Btn{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.Btn li:hover{
+    transform: scale(1,1.5);
+    transition: all 2s;
+    background-color: rosybrown;
+}
+.navBar{
+   display: flex;
+   justify-content: space-between;
+   grid-area: nav;
+}
+.Btn li{  
+    border: 2px solid;
+    margin: 10px;
+    align-items: center;
+}
+.pie{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #ff8ba7;
+    justify-content:space-around;
+    grid-area: footer;
+}
+.pie a{
+    margin: -50px;
+}
+.pie a:hover{
+    transform: scale(2,2);
+    transition: all 2s;
+}
+.Descript{
+    margin: auto;
+    text-align: center;
+    grid-area: section;
+}
+.Tarifas{
+    grid-area: aside;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "nav nav"
+    "section section"
+    "aside aside"
+    "footer footer footer";
+}
+@media screen and (max-width:768px){
+body{
+    display: grid;
+    grid-template-areas: 
+    "nav nav"
+    "section"
+    "aside"
+    "footer footer";
+}
+}
