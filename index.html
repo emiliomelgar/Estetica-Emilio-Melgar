@@ -5,38 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/fb9ad8fef3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav class="navBar">
-            <img class="logo" src="./img/logo.jpeg" width="300" height="150" alt="">
-            <ul class="Btn">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#Tarifas">Tarifas</a></li>
-                <li><a href="./pages/modelos.html">Modelos</a></li>
-                <li><a href="#pie">Contacto</a></li>
-                <li><a href="./pages/turno.html">Solicitar turno</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <img src="./img/logo.jpeg" alt="" width="200" height="100">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item btn">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item btn">
+                    <a class="nav-link" href="index.html#tarifa">Tarifas</a>
+                  </li>
+                  <li class="nav-item btn">
+                    <a class="nav-link" href="./pages/modelos.html">Modelos</a>
+                  </li>
+                  <li class="nav-item btn">
+                    <a class="nav-link" href="index.html#pie">Contacto</a>
+                  </li>
+                  <li class="nav-item btn">
+                    <a class="nav-link" href="./pages/turno.html">Solicitar turno</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
    <main>
-       <section class="Descript">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem totam rem amet earum, optio deleniti debitis! 
-            Quisquam dignissimos esse ullam voluptas, nulla dicta exercitationem non consectetur iusto repudiandae inventore aperiam?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam vel omnis placeat beatae enim provident sit, dicta quibusdam 
-            inventore soluta, tenetur maiores eum alias tempore a doloremque praesentium totam consequuntur exercitationem quae. Quas, 
-            voluptatum magnam consequuntur id autem nostrum nemo.</p>
-            <aside id="Tarifas">
-                 <h3>Tarifas:</h3>
-                   <ul>
-                    <li>$900</li>
-                    <li>$700</li>
-                    <li>$500</li>
-                    <li><a href="./turno.html">Solicitar turno</a></li>
-                   </ul>
-            </aside>
+     <section class="descript">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, deserunt sed doloribus nihil excepturi, doloremque porro consequatur, at commodi ipsum in! Maiores nam, qui culpa quaerat quibusdam debitis quam deserunt repudiandae iure cupiditate, iste beatae natus provident deleniti ullam nostrum. Dolorem, unde molestias. Nemo accusantium eaque, necessitatibus dicta illo officia minima reprehenderit dolorem, nostrum maxime dolor sapiente illum ea ipsam saepe exercitationem debitis consequatur aspernatur repellat quaerat deserunt? Facere perspiciatis quam aut sed blanditiis eaque, velit laborum provident modi eius dicta suscipit est assumenda quaerat fugit saepe soluta quasi ab quod, vel temporibus vitae officia qui labore! Perspiciatis, optio atque!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, doloremque nobis aperiam molestias quod voluptate reiciendis consectetur, exercitationem corporis ut nam sit autem facere quae doloribus magnam, nesciunt facilis fuga. Delectus officiis aperiam quae error, reprehenderit eos adipisci possimus debitis?</p>
+     </section>
+     <aside class="tarifa">
+      <h3>Tarifas:</h3>
+      <ul>
+        <li>$900</li>
+        <li>$700</li>
+        <li>$500</li>
+        <a class="btn btn-outline-secondary" href="./pages/turno.html" role="button">Solicitar turno</a>       </ul>
+     </aside>
     </main>
     <footer>
        <aside class="pie">
@@ -46,7 +63,7 @@
         <a href="https://wa.me/1164453832"><i class="fa-brands fa-whatsapp"></i></a>
         <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://www.tiktok.com/en/"><i class="fa-brands fa-tiktok"></i></a>
-        Nuestro newsletter:<input type="text" name="newsletter"/> <a href="mailto:emilioosantino@gmail.com">Suscribirse</a>
+        <p>Nuestro newsletter:</p><input type="text" name="newsletter"/> <a class="btn" href="mailto:emilioosantino@gmail.com" role="button">Suscribirse</a>
       </aside>
     </footer>
 </body>
