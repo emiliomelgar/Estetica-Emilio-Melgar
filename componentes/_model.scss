@@ -1,0 +1,15 @@
+main{
+    section{
+        li{
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+    }
+    .carousel-item.active{
+        display: flex;
+        justify-content: center;
+    }
+}

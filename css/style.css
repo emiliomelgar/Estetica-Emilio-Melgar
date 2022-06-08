@@ -1,85 +1,107 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  border: 0;
 }
-body{
-    background-color: #faeee7;
-}
-.navbar{
-    background-color: #faeee7;
-    
-}
-.nav-link{
-    color: black;
-}
-.nav-link:hover{
-    color: black;
-}
-.navbar-nav{
-padding-left: 300px
-}
-.nav-item{
-    color: #ff8ba7;
-    border-color: #ff8ba7;
-    margin: 5px;
-}
-.btn{
-    color: black;
-}
-.btn:hover{
-    background-image: linear-gradient(to top, #ff8ba7 , rgb(110, 49, 104));
-    background-color: #ff8ba7;
-}
-.tarifa h3{
-    padding-left: 600px;
-    font-family: cursive;
-}
-main .tarifa ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style-type: none;
-}
-.descript{
-    padding: 20px;
-    margin: 20px;
-    border: 1.5px solid;
-    border-color: #ff8ba7;
-    background-color:#eee4ddc2 ;
-}
-.pie i:hover{
-    transform: scale(2,2);
-    transition: all 2s;
-}
-footer{
-    background-color: #ff8ba7;
-}
-.pie{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    
-    grid-area: footer;
-}
-.pie a{
-    margin: 15px;
-}
-.pie p {
-    margin: 130px;
-}
-.pie .btn{
-    background-image: linear-gradient(to top, #ff8ba7 , rgb(110, 49, 104));
-    border-color: black;
-}
-section li{
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
 
+body {
+  background-color: #faeee7;
 }
-.carousel-item.active{
-    display: flex;
-    justify-content: center;
+body header .navbar {
+  padding-left: 300px;
+  background-color: #faeee7;
+  color: black;
 }
+body header .navbar .btn {
+  color: black;
+}
+body header .navbar .btn:hover {
+  background-image: linear-gradient(to top, #ff8ba7, rgb(110, 49, 104));
+  background-color: #ff8ba7;
+}
+body header .navbar .nav-link {
+  color: black;
+}
+body header .navbar .nav-linkhover {
+  color: black;
+}
+body header .navbar .navbar-nav {
+  padding-left: 300px;
+  color: black;
+}
+body header .navbar .nav-item {
+  color: #ff8ba7;
+  border-color: #ff8ba7;
+  margin: 5px;
+}
+
+main .descript {
+  padding: 20px;
+  margin: 20px;
+  border: 1.5px solid;
+  border-color: #ff8ba7;
+  background-color: rgba(238, 228, 221, 0.7607843137);
+}
+main .tarifa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .tarifa h3 {
+  font-family: cursive;
+}
+main .tarifa ul {
+  padding-left: 100px;
+  list-style-type: none;
+}
+main .tarifa .btn {
+  color: black;
+}
+main .tarifa .btn:hover {
+  background-image: linear-gradient(to top, #ff8ba7, rgb(110, 49, 104));
+  background-color: #ff8ba7;
+}
+
+footer {
+  background-color: #ff8ba7;
+}
+footer .pie {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+footer .pie a {
+  margin: 15px;
+}
+footer .pie p {
+  margin: 130px;
+}
+footer .pie .btn {
+  background-image: linear-gradient(to top, #ff8ba7, rgb(110, 49, 104));
+  border-color: black;
+}
+footer .pie i {
+  color: black;
+}
+footer .pie i:hover {
+  transform: scale(2, 2);
+  transition: all 2s;
+}
+
+main section li {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+main .carousel-item.active {
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to top, #ff8ba7, rgb(110, 49, 104));
+  background-color: #ff8ba7;
+}
+
+/*# sourceMappingURL=style.css.map */

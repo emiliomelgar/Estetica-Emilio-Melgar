@@ -1,0 +1,30 @@
+@import "../base/colores";
+
+main{
+.descript{
+    padding: 20px;
+    margin: 20px;
+    border: 1.5px solid;
+    border-color: $bg-footer;
+    background-color: $bg-descr;
+}
+.tarifa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3{
+        font-family: cursive;
+    }
+    ul{
+        padding-left: 100px;
+        list-style-type: none;
+    }
+    .btn{
+        color: $colnegr;
+                &:hover{
+                    background-image: linear-gradient(to top, $bg-footer, $grad);
+                    background-color: $bg-footer;
+                }
+    }
+}
+}

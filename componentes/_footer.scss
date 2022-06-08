@@ -1,0 +1,27 @@
+@import "../base/colores";
+
+footer{
+    background-color: $bg-footer;
+    .pie{
+        display:flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        a{
+            margin: 15px;
+        }
+        p{
+            margin: 130px;
+        }
+        .btn{
+            background-image: linear-gradient(to top, $bg-footer, $grad);
+            border-color: black;
+        }
+        i{
+            color: $colnegr;
+            &:hover{
+                transform: scale(2,2);
+                transition: all 2s;
+            }
+        }
+    }
+}
